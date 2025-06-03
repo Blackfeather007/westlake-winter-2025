@@ -10,7 +10,7 @@ package «westlake-winter-2025» where
   -- add any additional package configuration options here
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git"
+  "https://github.com/leanprover-community/mathlib4"@"v4.14.0"
 
 @[default_target]
 lean_lib «WestlakeWinter2025» where
